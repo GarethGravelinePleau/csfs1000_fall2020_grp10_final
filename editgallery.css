@@ -1,0 +1,227 @@
+html {
+
+    background-color: white;
+
+}
+
+  nav {
+      overflow: hidden;
+      background-color: #E2DADB;
+  }
+  
+  nav a {
+      float: left;
+      color: #353B3C;
+      font-family: OpenSans;
+      font-size: 20px;
+      text-align: left;
+      padding: 10px 10px;
+      text-decoration: none
+  }
+  
+  .dropdown {
+      float: left;
+      overflow: hidden;
+  }
+  
+  .dropdown .dropbutton {
+      border: none;
+      outline: none;
+      color: #353B3C;
+      padding: 10px 10px;
+      background-color: inherit;
+      font-family: OpenSans;
+      font-size: 20px;
+      margin: 0;
+  }
+  
+  nav a:hover {
+      background-color: #353B3C;
+      color: #E2DADB;
+  }
+  
+  .dropcontent {
+      display: none;
+      position: absolute;
+      background-color:#E2DADB;
+      min-width: 75.22px;
+  }
+  
+  .dropcontent a {
+      float: none;
+      color: #353B3C;
+      padding: 10px 10px;
+      text-decoration: none;
+      display: block;
+      text-align: center;
+    }
+    
+    .dropcontent a:hover {
+      background-color: #353B3C;
+    }
+    
+    .dropdown:hover .dropcontent {
+      display: block;
+    }
+  
+  .dropdown:hover  .dropbutton{
+      background-color: #353B3C;
+      color: #E2DADB;
+  }
+h1 {
+    font-family: Anton;
+    margin-bottom: 0%;
+    opacity: 0.7;
+    
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #353B3C; 
+    margin-right: 70%;
+    border-radius: 30px;
+    opacity: 0.8;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .subnav {
+    float: left;
+    overflow: hidden;
+    
+  }
+  
+  .subnav .subnavbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: Anton;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .subnav:hover .subnavbtn {
+    background-color: #846A6A;
+    
+  }
+  
+  .subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: #846a6A;
+    z-index: 1;
+    margin-right: 70%;
+    font-family: Anton;
+  }
+  
+  .subnav-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .subnav-content a:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .subnav:hover .subnav-content {
+    display: block;
+  }
+
+  #editPhot {
+      margin-top: 55px;
+  }
+
+  h2 {
+      font-family: Anton;
+      margin-top: 60px;
+      opacity: 0.7;
+  }
+
+  div.gallery {
+    margin: 5px;
+    border: 5px solid #ccc;
+    float: left;
+    width: 180px;
+    margin-bottom: 0%;
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 10px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+    background-color: white;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    font-family: Anton;
+    background-color: white;
+  }
+
+  #button {
+      margin-left: 28%;
+      font-family: Anton;
+      background-color: #846a6A;
+      color: #ccc;
+      border-radius: 30px;
+      border: none;
+  }
+
+  #container {
+
+position: absolute;
+    font-size: 20px;
+    padding: 0px;
+    margin-top: 0px;
+    margin-left: 95%;
+
+}
+#tastesTitle{
+    color: #846A6A;
+    font-family: Anton;
+    margin: 0;
+    padding: 0;
+    line-height: 35px;
+    
+}
+
+#spacesTitle {
+    color: #000000;
+    font-family: Anton;
+    margin:0;
+    padding:0;
+    
+    
+}
+
+#placesTitle {
+    color: #846A6A;
+    font-family: Anton;
+    margin: 0;
+    padding: 0;
+    line-height:35px;
+
+}
+
+  
+
+  

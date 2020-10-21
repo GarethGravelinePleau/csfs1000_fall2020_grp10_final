@@ -1,0 +1,36 @@
+#container {
+    vertical-align: bottom;
+    text-align: left;
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 90px;
+    padding: 0px;
+    margin: 0px;
+}
+#tastesTitle{
+    color: #E2DADB;
+    font-family: Anton;
+    margin: 0;
+    padding: 0;
+    line-height: 35px;
+    
+}
+
+#spacesTitle {
+    color: #000000;
+    font-family: Anton;
+    margin:0;
+    padding:0;
+    
+    
+}
+
+#placesTitle {
+    color: #E2DADB;
+    font-family: Anton;
+    margin: 0;
+    padding: 0;
+    line-height:35px;
+
+}
