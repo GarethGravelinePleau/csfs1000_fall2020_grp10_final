@@ -1,0 +1,168 @@
+/* NAV BAR */
+nav {
+  overflow: hidden;
+  background-color: #E2DADB;
+}
+
+nav a {
+  float: left;
+  color: #353B3C;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  text-align: left;
+  padding: 10px 10px;
+  text-decoration: none
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbutton {
+  border: none;
+  outline: none;
+  color: #353B3C;
+  padding: 10px 10px;
+  background-color: inherit;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  margin: 0;
+}
+
+nav a:hover {
+  background-color: #353B3C;
+  color: #E2DADB;
+}
+
+.dropcontent {
+  display: none;
+  position: absolute;
+  background-color:#E2DADB;
+  min-width: 75.22px;
+}
+
+.dropcontent a {
+  float: none;
+  color: #353B3C;
+  padding: 10px 10px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropcontent a:hover {
+  background-color: #353B3C;
+}
+
+.dropdown:hover .dropcontent {
+  display: block;
+}
+
+.dropdown:hover  .dropbutton{
+  background-color: #353B3C;
+  color: #E2DADB;
+}
+
+
+
+/* BODY  */
+ .about-body {
+    background-color: #F2ECED;
+
+  }
+  .about {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    text-align: justify;
+  }
+
+  .description {
+    width: 50%;
+    margin: 2% 3%; 
+    padding: 1% 5% 3%;
+  }
+  
+  .description h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 55px;
+    
+  }
+
+  .description p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    -webkit-animation: slide linear 1.5s;
+    animation: slide linear 1.5s;
+  
+  }
+  @-webkit-keyframes slide {
+    0% {margin-left: -300px;}
+    0% {margin-right: 300px;}
+    100% {margin-left: 0px;}
+    100% {margin-right: 0px;}
+  }
+
+  @keyframes slide {
+      0% {margin-left: -300px;}
+      0% {margin-right: 300px;}
+      100% {margin-left: 0px;}
+      100% {margin-right: 0px;}
+  }
+
+  .about-img {
+    width: 38%;
+    margin: 4% 3% 2% 0;
+    padding: 2% 2% 2% 0;
+    position: relative;
+    top: 40px;
+    left: 20px;
+  }
+
+  .cuba {
+    height: 30%;
+    animation: fadeIn ease 3s;
+    -webkit-animation: fadeIn ease 3s;
+  }
+
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+
+  .block-1 {
+    background-color: #353B3C;
+    width: 250px;
+    height: 170px;
+    position: relative;
+    left: 1240px;
+    bottom: 1080px;
+    z-index: -1;
+  }
+
+  .block-2 {
+    background-color: #353B3C;
+    width: 685px;
+    height: 280px;
+    position: relative;
+    left: 90px;
+    bottom: 1440px;
+    opacity: 0.25;
+  }
+
+  .block-3 {
+    
+    background-color: #846A6A;
+    width: 200px;
+    height: 150px;
+    position: relative;
+    left: 860px;
+    bottom: 1800px;
+    z-index: -1;
+  }
