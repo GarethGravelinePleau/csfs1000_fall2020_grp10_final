@@ -1,4 +1,3 @@
-
 // we only use this.container to get this.photocontainer. would be much better if we just went ahead and created a container, or just didn't take a container, 
 // only a photo container. that will simplify the user's markup. right now they have to have a container element with an element called 'photocontainer' inside it.
 // let's just make it so they only need one of the two. 
