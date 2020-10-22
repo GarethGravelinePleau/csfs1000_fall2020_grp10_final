@@ -1,1 +1,0 @@
-initSliders({pictures: ['./Images/places/DinoReichmuth.jpg','./Images/places/FedericoGutierrez.jpg', './Images/places/JesseBowser.jpg', './Images/places/LucaBravo.jpg', './Images/places/SanjayHona.jpg', './Images/places/TimVanKempen.jpg'], startingSize: 3})
