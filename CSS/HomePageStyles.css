@@ -18,6 +18,8 @@ html {
     background: url("../Images/dane-deaner.jpg") no-repeat center center fixed;
     background-size: cover;
 }
+
+/* NAV BAR */
 nav {
     overflow: hidden;
     background-color: #E2DADB;
@@ -82,6 +84,8 @@ nav a:hover {
     background-color: #353B3C;
     color: #E2DADB;
 }
+
+/* HEADER */
 header {
     position: relative;
     top: 35vh;
@@ -93,6 +97,7 @@ header {
     width: 70vw;
 }
 
+/* photocredit */
 #photoCredit {
     vertical-align: text-bottom;
     position: fixed;
