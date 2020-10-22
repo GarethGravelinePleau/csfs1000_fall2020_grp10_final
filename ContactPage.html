@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="ContactPage.css">
+    <script src="ContactPage.js"></script>
+</head>
+<body>
+    
+    <nav>
+        <a href="#">HOME</a>
+            <div class="dropdown">
+                <button class="dropbutton">GALLERY</button>
+                    <div class="dropcontent">
+                        <a href="#">TASTES</a>
+                        <a href="#">SPACES</a>
+                        <a href="#">PLACES</a>
+                    </div>
+            </div>
+        <a href="#">ABOUT US</a>
+        <a href="#">CONTACT</a>
+        <a href="#">ADMIN</a>
+    </nav> 
+
+    <h1>LET'S TALK!</h1>
+    <h2>You can contact us at:<br> 111-222-3333<br>csfs1000grp10F2020@gmail.com<br><br>or fill out the form below:</h2>
+
+    <form action="comment.php" method="post" name="contactForm" onsubmit="return validateForm()"> 
+        <label for="Name" name="nameContact">Name</label>
+        <input type="name" name="nameContact" id="name" >
+        <br><br>
+        <label for="myemail" name="myemail">Email</label>
+        <input type="email" name="myemail" id="myemail" required>
+        <br><br>
+        <label for="comments" id="comments">Comments</label>
+        <textarea id="comments" name="comments" rows="1" cols="15"></textarea>
+        <br><br><br>
+        <input type="submit" value="Submit" class="button" >&nbsp;&nbsp;
+        <input type="reset" value="Reset" class="button" >
+    </form>
+    <div id="container">
+        <p id="tastesTitle">TASTES</p>
+        <p id="spacesTitle">SPACES</p>
+        <p id="placesTitle">PLACES</p>
+    </div>
+    <div id="imgCredit">
+        <p>Image Credit to Pineapple Supply Co </p>
+    </div>
+   
+</body>
+</html>
