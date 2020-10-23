@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: OpenSans;
-    src: url("./Fonts/OpenSansCondensed-Light.ttf");
+    src: url("../Fonts/OpenSansCondensed-Light.ttf");
 }
 
 * 
@@ -16,7 +16,7 @@
 }
 
 html { 
-    background: url("adminPics/pierre-chatel-innocenti-N5RN0JE5kaY-unsplash.jpg") no-repeat center center fixed; 
+    background: url("../Images/adminPics/pierre-chatel-innocenti-N5RN0JE5kaY-unsplash.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
