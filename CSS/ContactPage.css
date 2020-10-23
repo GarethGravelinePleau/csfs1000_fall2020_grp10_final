@@ -1,0 +1,186 @@
+@font-face {
+    font-family: Anton;
+    src: url("../Fonts/Anton-Regular.ttf");
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url("./Fonts/OpenSansCondensed-Light.ttf");
+}
+
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+
+html { 
+    background: url("ContactPagePics/ContactPic.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #E2DADB;
+  }
+  nav {
+    overflow: hidden;
+    background-color: #E2DADB;
+    font-family: OpenSans;
+}
+
+nav a {
+    float: left;
+    color: #353B3C;
+    font-family: OpenSans;
+    font-size: 20px;
+    text-align: left;
+    padding: 10px 10px;
+    text-decoration: none
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbutton {
+    border: none;
+    outline: none;
+    color: #353B3C;
+    padding: 10px 10px;
+    background-color: inherit;
+    font-family: OpenSans;
+    font-size: 20px;
+    margin: 0;
+}
+
+nav a:hover {
+    background-color: #353B3C;
+    color: #E2DADB;
+}
+
+.dropcontent {
+    display: none;
+    position: absolute;
+    background-color:#E2DADB;
+    min-width: 75.22px;
+}
+
+.dropcontent a {
+    float: none;
+    color: #353B3C;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+  
+.dropcontent a:hover {
+    background-color: #353B3C;
+}
+  
+.dropdown:hover .dropcontent {
+    display: block;
+}
+
+.dropdown:hover  .dropbutton{
+    background-color: #353B3C;
+    color: #E2DADB;
+}
+h1 {
+    text-align: center;
+    font-family: OpenSans;
+    font-size: 70px;
+    color: #E2DADB;
+    margin-top: 4%;
+}
+
+h2 {
+    margin-top: 50px;
+    text-align: center;
+    font-family: OpenSans;
+    font-size: 30px;
+    color: #E2DADB
+}
+
+
+form {
+    text-align:center;
+    margin-top: 10%;
+    font-family: OpenSans;
+}
+
+#name {
+      border-radius: 30px;
+      border-style: none;
+}
+
+#myemail {
+      border-radius: 30px;
+      border-style: none;
+}
+
+#comments {
+      border-radius: 30px;
+      border-style: none;
+}
+
+.button {
+    background-color: #E2DADB;
+    font-family: OpenSans;
+    width: 50px;
+    border-radius: 12px;
+    cursor: pointer;
+    border-color: black;
+    transition-duration: 0.4s;
+    border: none;
+}
+  
+  .button:hover {
+    background-color: #353B3C; 
+    color: white;
+  }
+
+#container {
+    vertical-align: bottom;
+    text-align: left;
+    position: fixed;
+    bottom: 30px;
+    right: 16px;
+    font-size: 90px;
+    padding: 0px;
+    margin: 0px;
+}
+#tastesTitle{
+    color: #E2DADB;
+    font-family: Anton;
+    margin: 0;
+    padding: 0;
+    line-height: 35px;
+    
+}
+
+#spacesTitle {
+    color: #000000;
+    font-family: Anton;
+    margin:0;
+    padding:0;
+    
+    
+}
+
+#placesTitle {
+    color: #E2DADB;
+    margin: 0;
+    padding: 0;
+    line-height:35px;
+    font-family: Anton;
+
+}
+
+#imgCredit {
+    vertical-align: text-bottom;
+    position: fixed;
+    top:98%;
+    font-size: 7px;
+}
