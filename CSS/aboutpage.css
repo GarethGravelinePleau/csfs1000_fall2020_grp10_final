@@ -1,3 +1,20 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+  font-family: Anton;
+  src: url("../Fonts/Anton-Regular.ttf");
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url("../Fonts/OpenSansCondensed-Light.ttf");
+}
+
+
 /* NAV BAR */
 nav {
   overflow: hidden;
@@ -7,7 +24,7 @@ nav {
 nav a {
   float: left;
   color: #353B3C;
-  font-family: 'Open Sans', sans-serif;
+  font-family: OpenSans;
   font-size: 20px;
   text-align: left;
   padding: 10px 10px;
@@ -25,7 +42,7 @@ nav a {
   color: #353B3C;
   padding: 10px 10px;
   background-color: inherit;
-  font-family: 'Open Sans', sans-serif;
+  font-family: OpenSans;
   font-size: 20px;
   margin: 0;
 }
@@ -81,12 +98,13 @@ nav a:hover {
   .description {
     width: 50%;
     margin: 2% 3%; 
-    padding: 1% 5% 3%;
+    padding: 5% 5% 3%;
   }
   
   .description h1{
     font-family: 'Anton', sans-serif;
     font-size: 55px;
+    padding-bottom: 40px;
     
   }
 
@@ -152,7 +170,7 @@ nav a:hover {
     height: 280px;
     position: relative;
     left: 90px;
-    bottom: 1440px;
+    bottom: 1425px;
     opacity: 0.25;
   }
 
