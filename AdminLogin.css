@@ -110,9 +110,7 @@ nav a:hover {
     color: #000000;
     font-family: Anton;
     margin:0;
-    padding:0;
-    
-    
+    padding:0; 
 }
 
 #placesTitle {
@@ -121,8 +119,24 @@ nav a:hover {
     padding: 0;
     line-height:35px;
     font-family: Anton;
-
 }
+
+#button {
+    background-color: #707070;
+    color: white;
+    font-family: OpenSans;
+    width: 50px;
+    border-radius: 12px;
+    cursor: pointer;
+    border-color: black;
+    transition-duration: 0.4s;
+    border: none;
+}
+
+#button:hover {
+    background-color: #353B3C; 
+    color: white;
+  }
 
 form {
     border-radius: 25px;
@@ -138,7 +152,7 @@ form {
     padding: 10px;  
     background: #E2DADB;  
     border-radius: 10px ;
-    font-family: Anton;
+    font-family: OpenSans;
     font-size: 10px;
     }
 
