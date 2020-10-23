@@ -79,9 +79,9 @@ nav a:hover {
 header {
     text-align: right;
     margin-top: 5vh;
-    margin-right: 10vw;
+    margin-right: 8vw;
     color: #353B3C;
-    font-size: 32px;
+    font-size: 40px;
     font-family: Anton;
 }
 
@@ -95,13 +95,14 @@ header {
 }
 
 body{
-    background: white;
+    background: #F2ECED;
     font-size: 20px;
     font-family: OpenSans;
 }
 
 .container{
-    margin: 40px;
+    margin-right: 2vw;
+    margin-left: 2vw;
     padding: 5px;
     display: flex;
     flex-wrap: wrap;
@@ -170,7 +171,7 @@ body{
 }
 
 .content-details p{
-    color: #fff;
+    color: #E2DADB;
     font-size: 15pt;
 }
 
